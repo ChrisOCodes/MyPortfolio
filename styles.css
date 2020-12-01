@@ -1,0 +1,108 @@
+:root {
+	--AppHeight: 100vh;
+	--AppWidth: 100vw;
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#AppWrapper {
+	height: var(--AppHeight);
+	width: var(--AppWidth);
+	display: flex;
+	flex-direction: column;
+}
+
+.canvasWrapper {
+	position: fixed;
+	height: 100vh;
+	width: 100vw;
+	opacity: 0.3;
+	z-index: 1;
+}
+
+#CanvasBackground {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: calc(var(--AppWidth) - (30vw + 25px));
+	height: var(--AppHeight);
+}
+
+#ScrollWrapper {
+	position: relative;
+	height: 100vh;
+	width: 100vw;
+	scroll-behavior: smooth;
+}
+
+#Section-1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--AppHeight);
+	width: var(--AppWidth);
+	background-color: rgba(17, 100, 102, 1);
+}
+
+.creatorCard {
+	position: relative;
+	height: 80vh;
+	width: 30vw;
+	margin-left: auto;
+	background-color: rgba(217, 176, 140, 1);
+	display: flex;
+	flex-direction: column;
+	border-radius: 16px;
+	margin-right: 25px;
+	text-align: center;
+	box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.avatarContainer {
+	height: 30vh;
+	width: 30vh;
+	border-radius: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 7vh;
+	box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.creatorCardText {
+	margin-top: auto;
+}
+
+#Section-2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--AppHeight);
+	width: var(--AppWidth);
+}
+
+.aboutCard {
+	height: 40vh;
+	width: 70vw;
+	background-color: rgba(209, 232, 226, 1);
+	margin-bottom: auto;
+	margin-top: 10vh;
+	border-radius: 16px;
+	box-shadow: 0px 0px 10px 0px #000000;
+}
+
+.aboutCardText {
+}
+
+#Section-3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: var(--AppHeight);
+	width: var(--AppWidth);
+}
