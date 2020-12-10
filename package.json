@@ -1,11 +1,11 @@
 {
-  "name": "devportfolio",
+  "name": "portfolio",
   "version": "1.0.0",
-  "description": "Javascript Web Developer Portfolio",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Christopher Ortiz",
+  "author": "",
   "license": "ISC"
 }
